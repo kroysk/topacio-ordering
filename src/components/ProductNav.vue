@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-baseline justify-between flex border-b border-gray-200 pb-6 pt-24">
+    <div class="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-24">
         <!-- <h1 class="text-4xl font-bold tracking-tight text-gray-900">New Arrivals</h1> -->
         <div></div>
 
