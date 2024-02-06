@@ -16,4 +16,3 @@ onMounted(async () => {
     <RouterView />
   </body>
 </template>
-

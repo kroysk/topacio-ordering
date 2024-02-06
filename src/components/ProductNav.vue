@@ -1,8 +1,9 @@
 <template>
-    <div class="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-24">
+    <div class="flex items-center justify-between border-b border-gray-200 pb-6 pt-24">
         <!-- <h1 class="text-4xl font-bold tracking-tight text-gray-900">New Arrivals</h1> -->
-        <div></div>
-
+        <div class="h-20 overflow-hidden flex items-center align-middle">
+            <img :src="logo" alt="logo topacio" class="h-48">
+        </div>
         <div class="flex items-center">
             <Menu as="div" class="relative inline-block text-left">
                 <div>
@@ -53,6 +54,7 @@ import {
     MenuItems,
 } from '@headlessui/vue'
 import { ChevronDownIcon, FunnelIcon, Squares2X2Icon } from '@heroicons/vue/20/solid'
+import logo from "@/assets/img/TOPACIOBISUTERIA.svg"
 const props = defineProps(['sortOptions', 'mobileFiltersOpen'])
 const { sortOptions } = toRefs(props)
 const emit = defineEmits(["MobileOpenChange"]);

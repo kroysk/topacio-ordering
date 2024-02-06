@@ -13,7 +13,7 @@
   ```
 -->
 <template>
-    <div class="bg-white">
+    <div class="bg-PapayaWhip">
         <div>
             <!-- Mobile filter dialog -->
             <MobileProductFilter :categories="getCategories" :mobileFiltersOpen="mobileFiltersOpen"
